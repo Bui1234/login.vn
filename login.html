@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký, đăng nhập tài khoản</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="headers" >
+           <div class="navbars">
+            <div class="navbar-bar"><i class="fa-solid fa-bars"></i></div>
+            <div class="navbars-logo">
+            <h3>Fathershoes</h3>
+            </div>
+            <div class="navbar-search">
+              <label for="search" class="searchs">
+                <input type="text" placeholder="Tìm kiếm sản phẩn..." name="search" id="search">
+                <span class="glass"> <i class="fa-solid fa-magnifying-glass "></i></span>
+              </label>
+            </div>
+            <div class="navbars-icon">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                </div>
+                <div class="user-icon">
+                    <a  href="file:///G:/fathershoes/fontend/login.html"><i class="fa-regular fa-user user"></i></a>
+                </div>
+                <div class="cart-icon">
+                    <a  href=""><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                </div>
+                <div class="bell-icon">
+                    <i class="fa-solid fa-bell bell"></i>
+                </div>
+                <div class="creatdow">
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+            <div class="navbars-light-dark">
+                <label for="light-darks" class="darks-light">
+                    <i class="fas fa-sun  suns "></i>
+                    <i class="fas fa-moon  moons "></i>
+                    <input type="checkbox" id="light-darks">
+                </label>
+            </div>
+           </div>
+                   <!-- mobile -->
+                   <div class="navbars-icon-mobile">
+                    <div class="user-icon">
+                        <a  href="file:///G:/fathershoes/fontend/login.html"><i class="fa-regular fa-user user"></i></a>
+                    </div>
+                    <div class="cart-icon">
+                        <a  href=""><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                    </div>
+                    <div class="navbars-light-dark-mobile">
+                        <label for="light-darks-mobile" class="darks-light-mobile">
+                            <i class="fas fa-sun  suns-mobile "></i>
+                            <i class="fas fa-moon  moons-mobile "></i>
+                            <input type="checkbox" id="light-darks-mobile">
+                        </label>
+                    </div>
+                </div>
+           <div class="searchs-icon">
+            <label for="search" class="searchs">
+                <input type="text" placeholder="Tìm kiếm sản phẩm..." name="search" id="search">
+                <span class="glass"> <i class="fa-solid fa-magnifying-glass "></i></span>
+              </label>
+        </div>
+        <div class="overplay"></div>
+        <nav class="containers-tablet">
+            <div class="icon-text-close">
+                <div class="text">Danh Mục Sản Phẩm</div>
+                <div class="icon-close"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+            <ul class="main-menu-lv1-tablet">
+                 <!-- GIAY NIKE -- -->
+             <li class="menu-tablet  menu-lv1"><a href="#">
+                Giày Nike <i class="fa-solid fa-caret-down"></i></a>
+                <div class="sub-menu-lv2-tablet">
+                    <ul class="main-menu-lv2-tablet ">
+                        <li><a href="">Giày Nam</a></li>
+                        <li><a href="">Giày Nữ</a></li>
+                    </ul>
+                </div>
+            </li >
+            <!-- GIAYADIDAS -->
+             <li  class="menu-tablet"><a href="#">Giày Adidas</a></li>
+             <!-- GIAYPUMA -->
+             <li  class="menu-tablet  menu-lv2"><a href="#">
+                Giày Puma <i class="fa-solid fa-caret-down"></i></a>
+                <div class="sub-menu-lv2-tablet  ">
+                    <ul class="main-menu-lv2-tablet">
+                        <li><a href="">Giày Nam </a></li>
+                        <li><a href="">Giày Nữ</a></li>
+                    </ul>
+                </div>
+            </li>
+        <!-- GIAYJORDAN -->
+             <li  class="menu-tablet"><a href="#">Giày Asics</a></li>
+             <!-- GIAYTHETHAO -->
+             <li  class="menu-tablet"><a href="#">Giày Thể Thao</a></li>
+             <!-- SALE -->
+             <li  class="menu-tablet"><a href="#">Sale</a></li>
+             <!-- LIENHE -->
+             <li  class="menu-tablet"><a href="#"> Liên Hệ</a></li>
+             <!-- BLOG -->
+             <li  class="menu-tablet"><a href="#">Blog</a></li>
+            </ul>
+       </nav>
+       <!-- PC -->
+
+           <nav class="containers">
+                <ul class="main-menu-lv1">
+                     <!-- GIAY NIKE -- -->
+                 <li class="menu menu-lv1"><a href="#">
+                    Giày Nike <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="sub-menu-lv2 ">
+                        <ul class="main-menu-lv2">
+                            <li><a href="">Giày Nam</a></li>
+                            <li><a href="">Giày Nữ</a></li>
+                        </ul>
+                    </div>
+                </li >
+                <!-- GIAYADIDAS -->
+                 <li  class="menu"><a href="#">Giày Adidas</a></li>
+                 <!-- GIAYPUMA -->
+                 <li  class="menu  menu-lv2"><a href="#">
+                    Giày Puma <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="sub-menu-lv2 ">
+                        <ul class="main-menu-lv2">
+                            <li><a href="">Giày Nam </a></li>
+                            <li><a href="">Giày Nữ</a></li>
+                        </ul>
+                    </div>
+                </li>
+            <!-- GIAYJORDAN -->
+                 <li  class="menu"><a href="#">Giày Asics</a></li>
+                 <!-- GIAYTHETHAO -->
+                 <li  class="menu"><a href="#">Giày Thể Thao</a></li>
+                 <!-- SALE -->
+                 <li  class="menu"><a href="#">Sale</a></li>
+                 <!-- LIENHE -->
+                 <li  class="menu"><a href="#"> Liên Hệ</a></li>
+                 <!-- BLOG -->
+                 <li  class="menu"><a href="#">Blog</a></li>
+                </ul>
+           </nav>
+        </div>
+        <div id="register-login">
+            <div class="text-register-login">
+                <h1 class="text-register">Đăng Ký</h1>
+                <h1 class="text-login">Đăng Nhập</h1>
+            </div>
+            <!-- ĐĂNG KÝ -->
+        <form class="form-register">
+            <div class="form-box-register">
+                <div class="form-value">
+                    <h1>Đăng Ký</h1>
+                  <div class="input-box">
+                      <input type="text" name="name" placeholder="Họ và Tên" id="fullname">
+                      <i class="fa-solid fa-user user icon"></i>
+                      <span class="messega"></span>
+                  </div>
+                  <div class="input-box">
+                    <input type="email" name="email" placeholder="Email" id="emails">
+                    <i class="fa-solid fa-envelope icon"></i>
+                    <span class="messega"></span>
+                </div>
+                  <div class="input-box">
+                      <input type="password" name="pass" placeholder="Nhập Mật Khẩu " id="password" >
+                      <i class="fa-solid fa-lock icon"></i>
+                      <span class="messega"></span>
+                  </div>
+                  <div class="input-box">
+                    <input type="password" name="pass" placeholder="Nhập Lại Mật Khẩu" id="enterpassword" >
+                    <i class="fa-solid fa-lock icon"></i>
+                    <span class="messega"></span>
+                </div>
+                <div class="rules">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">Đồng ý các điều khoản trên.</label>
+                </div>
+                  <button class="submit">Đăng Ký</button>
+            </div>
+        </div>
+        </form>
+        <!-- ĐĂNG NHẬP -->
+        <form  class="form-login">
+            <div class="form-box-login">
+                <div class="form-value">
+                    <h1>Đăng Nhập</h1>
+                  <div class="input-box">
+                        <input type="text" name="name" placeholder="Họ và Tên" id="fullname">
+                      <i class="fa-solid fa-user user icon"></i>
+                      <span class="messega"></span>
+                  </div>
+                  <div class="input-box">
+                    <input type="email" name="email" placeholder="Email" id="emails">
+                    <i class="fa-solid fa-envelope icon"></i>
+                    <span class="messega"></span>
+                </div>
+                <div class="input-box">
+                    <input type="password" name="pass" placeholder="Nhập Mật Khẩu " id="password" >
+                    <i class="fa-solid fa-lock icon"></i>
+                    <span class="messega"></span>
+                </div>
+                <div class="fogert">
+                    <label for="checkbox"><input type="checkbox" name="checkbox">Nhớ mật khẩu</label>
+                    <a href="#">Quên mật khẩu</a>
+                </div>
+                  <button class="submit">Đăng Nhập</button>
+                <div class="registerss">
+                    <span>Không có tài khoản   </span>
+                    <a href="#" class="registers">Đăng Ký</a>
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+    <div class="footer" >
+        <div class="register">
+            <div class="regiter-text">
+               <h3>ĐĂNG KÝ NHẬN THÔNG TIN</h3>
+               <p>Đăng ký ngay để được cập nhật sớm nhất những thông tin hữu ích, ữu đãi vô cùng hấp dẫn và những món quà bất ngờ từ Fathershoes.vn!</p>
+           </div>
+            <div class="regiter-email">
+               <div class="regiter-email-input">
+                   <input type="email" name="email" id="email" placeholder="Nhập email của bạn">
+                   <div class="regiter-icon">
+                       <i class="fa-solid fa-envelope"></i>
+                       <span>Đăng Ký</span>
+                   </div>
+               </div>
+               <div class="regiter-checkbox">
+                   <input type="checkbox" class="checkboxs">
+                   <a href="">Tôi đã đọc và đồng ý với <span>chính sách bảo mật</span></a>
+               </div>
+            </div>
+         </div>
+         <div class="boder"></div>
+         <div class="information">
+            <div class="information-adress">
+                <p>FATHERSHOES.VN-GIÀY CHÍNH HẠNG </p>
+                <div class="information-text">
+                   <img src="images/logo.png" alt="fathershoes">
+                   <p>Fathershoes.vn được định hướng trở thành hệ thống thương mại điện tử bán giày chính hãng hàng đầu Việt Nam.    
+                    <br>         
+                    Showroom: Xã Sơn Hải, Quỳnh Lưu, Nghệ An
+                               <br>
+                    Hotline: 0867613647
+                </p>
+                </div>
+            </div>
+            <div class="introduce-customers introduce">
+                <p>VỀ CHÚNG TÔI</p>
+                <a href="">Giới thiệu</a>
+                <a href="">Điều khoản sử dụng</a>
+                <a href="">Chính sách bảo mật</a>
+                <a href="">Tin tức Fathershoes</a>
+                <a href="">Cơ hội việc làm</a>
+                <a href="">Liên hệ</a>
+            </div>
+            <div class="introduce-customers customers">
+                <p>KHÁCH HÀNG</p>
+                <a href="">Hướng dẫn khách hàng</a>
+                <a href="">Chính sách đổi trả</a>
+                <a href="">Chính sách bảo hành</a>
+                <a href="">Khách hàng thân thiết</a>
+                <a href="">Hướng dẫn chọn size</a>
+                <a href="">Chương trình khuyến mại</a>
+            </div>
+            <div class="certification">
+                <p>CHỨNG NHẬN</p>
+                <img src="images/chungnhan1.png"  alt="">
+                <img src="images/chungnhan2.png" alt="">
+            </div>
+         </div>
+         <div class="boder"></div>
+         <div class="pay">
+            <div class="pay-text">Copyright © 2023 - 2024 Fthershoes.vn. All rights reserved.
+            </div>
+            <div class="pay-cards">
+                <div class="card-text">
+                    <a href=""><i class="fa-brands fa-cc-visa"></i></a>
+                </div>
+                <div class="card-text">
+                    <a href=""><i class="fa-brands fa-cc-jcb"></i></a>
+                </div>
+                <div class="card-text">
+                    <a href=""><i class="fa-brands fa-cc-amazon-pay"></i></a>
+                </div>
+                <div class="card-text">
+                    <a href=""><i class="fa-brands fa-cc-paypal"></i></a>
+                </div>
+            </div>
+         </div>
+   </div>
+</div>
+    </div>
+<script src="login.js"></script>
+<script>
+    Validater({
+    form:'.form-register',
+     message:'.messega',
+     inputBox: '.input-box',
+     rules:
+     [
+        Validater.isRequired('#fullname'),
+        Validater.isRequired('#emails'),
+        Validater.isEmail('#emails'),
+        Validater.isRequired('#password'),
+        Validater.isPassword('#password',8),
+        Validater.isRequired('#enterpassword'),
+        Validater.isEnterpassword('#enterpassword', function(){
+             return document.querySelector('#password').value
+           }),
+    ], 
+    onSubmit:  function(data)
+    {
+     console.log(data)
+    }
+    });
+    Validater({
+    form:'.form-login',
+     message:'.messega',
+     inputBox: '.input-box',
+     rules:
+     [
+        Validater.isRequired('#fullname'),
+        Validater.isRequired('#emails'),
+        Validater.isEmail('#emails'),
+        Validater.isRequired('#password'),
+        Validater.isPassword('#password',8),
+    ], 
+    onSubmit:  function(data)
+    {
+     console.log(data)
+    }
+    });
+   </script>
+</body>
+</html>
